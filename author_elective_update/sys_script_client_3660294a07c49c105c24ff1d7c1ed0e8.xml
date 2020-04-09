@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>There are several strategies for debugging client-side scripts:&#13;
+JavaScript Log and jslog()&#13;
+Field Watcher&#13;
+try/catch&#13;
+Debugging tools built into web browsers (browser dependent)&#13;
+JavaScript Log and jslog()&#13;
+&#13;
+Client-side scripts can use the jslog() method to write messages to the JavaScript log. Pass the jslog() method the information you want to appear in the message:&#13;
+Strings&#13;
+g_form methods&#13;
+g_user properties and methods&#13;
+Variables&#13;
+JavaScript string escape characters such as \n (newline) and \t (tab) will not cause errors in the jslog() method but are ignored.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Browser Debugging</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	jslog("This message was written by the jslog() method.");
+   console.log("This message was written by console.log().");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 19:18:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3660294a07c49c105c24ff1d7c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Browser Debugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_3660294a07c49c105c24ff1d7c1ed0e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 19:18:43</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9d2d1c70db45fbc0f492c597059619ed</instance_id>
+        <instance_name>dev83043</instance_name>
+        <name>sys_script_client_3660294a07c49c105c24ff1d7c1ed0e8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;There are several strategies for debugging client-side scripts:&amp;#13;
+JavaScript Log and jslog()&amp;#13;
+Field Watcher&amp;#13;
+try/catch&amp;#13;
+Debugging tools built into web browsers (browser dependent)&amp;#13;
+JavaScript Log and jslog()&amp;#13;
+&amp;#13;
+Client-side scripts can use the jslog() method to write messages to the JavaScript log. Pass the jslog() method the information you want to appear in the message:&amp;#13;
+Strings&amp;#13;
+g_form methods&amp;#13;
+g_user properties and methods&amp;#13;
+Variables&amp;#13;
+JavaScript string escape characters such as \n (newline) and \t (tab) will not cause errors in the jslog() method but are ignored.&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Browser Debugging&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	jslog("This message was written by the jslog() method.");
+   console.log("This message was written by console.log().");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-09 19:18:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3660294a07c49c105c24ff1d7c1ed0e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Browser Debugging&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3660294a07c49c105c24ff1d7c1ed0e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-09 19:18:43&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1242590771</payload_hash>
+        <record_name>Browser Debugging</record_name>
+        <reverted_from/>
+        <source>d7c39d5907f300105c24ff1d7c1ed0bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 19:18:43</sys_created_on>
+        <sys_id>b260294a07c49c105c24ff1d7c1ed0eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171606153970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 19:18:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fa60294a0fc49c1063e1c8626ed948ea</update_guid>
+        <update_guid_history>fa60294a0fc49c1063e1c8626ed948ea:1242590771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 19:51:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>116ab65d7c2741b0982306b0023d6479</sys_id>
+        <sys_metadata>3660294a07c49c105c24ff1d7c1ed0e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Browser Debugging</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">35e897342ff10010c331bea62799b673</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_3660294a07c49c105c24ff1d7c1ed0e8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3660294a07c49c105c24ff1d7c1ed0e8">b260294a07c49c105c24ff1d7c1ed0eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 19:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
